@@ -9,7 +9,7 @@ def index():
         name = request.form['name']
 
         # Process the data (e.g., print it)
-        print(f"Name: {name})
+        print(name)
 
         # Return a response
         return f"Hello, {name}!"
